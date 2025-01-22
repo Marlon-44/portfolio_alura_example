@@ -1,0 +1,38 @@
+.about__me{
+    background-color: #EAF2FD;
+    padding: 30px 20px;
+}
+
+.about__me__description{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.dalmata__icon{
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    
+    .about__me__description{
+        font-size: 1.5rem;
+    }
+    .dalmata__icon{
+        font-size: 3rem;
+        color: #000;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px) {
+    
+    .profile__img{
+        width: 40%;
+    }
+    .dalmata__icon{
+        font-size: 3rem;
+        color: #000;
+        text-align: center;
+    }
+
+}

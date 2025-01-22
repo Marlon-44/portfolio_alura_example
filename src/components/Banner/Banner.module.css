@@ -1,0 +1,35 @@
+.profile__img{
+    width: 50%;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.banner__description{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile__img{
+        width: 30%;
+    }
+    .banner__description{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    h2{
+        font-size: 2.5rem;
+    }
+    .profile__img{
+        width: 40%;
+    }
+}
