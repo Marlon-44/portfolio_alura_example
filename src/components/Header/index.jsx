@@ -46,7 +46,7 @@ const Header = () =>{
                 </NavigationList>
 
                 <h4>
-                    <a href="">marlondavidag44@outlook.com</a>
+                    <a className={styles.item} href="">marlondavidag44@outlook.com</a>
                 </h4>
             </nav>
             
