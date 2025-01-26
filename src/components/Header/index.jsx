@@ -21,12 +21,12 @@ const NavigationList = styled.ul`
 
 const Header = () =>{
     return(
-        <header>
+        <header className={styles.header}>
             <Logo>
                 <img src='assets/stars.svg'></img>
                 <h4>Marlon Almanza</h4>
             </Logo>
-            <nav>
+            <nav className ={styles.nav}>
                 <NavigationList>
                     <li>
                         <a className={styles.item} href="">Sobre mi</a>
