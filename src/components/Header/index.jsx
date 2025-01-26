@@ -29,19 +29,19 @@ const Header = () =>{
             <nav>
                 <NavigationList>
                     <li>
-                        <a href="">Sobre mi</a>
+                        <a className={styles.item} href="">Sobre mi</a>
                     </li>
                     <li>
-                        <a href="">Skills</a>
+                        <a className={styles.item} href="">Skills</a>
                     </li>
                     <li>
-                        <a href="">Hobbies</a>
+                        <a className={styles.item} href="">Hobbies</a>
                     </li>
                     <li>
-                        <a href="">Formacion</a>
+                        <a className={styles.item} href="">Formacion</a>
                     </li>
                     <li>
-                        <a href="">Proyectos</a>
+                        <a className={styles.item} href="">Proyectos</a>
                     </li>
                 </NavigationList>
 
