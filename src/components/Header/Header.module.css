@@ -8,12 +8,12 @@ header{
     box-sizing: border-box;
 }
 
-nav{
+.nav{
     display: flex;
     box-sizing: border-box;
 }
 
-a{
+.item{
     text-decoration: none;
     color: #464646
 }
